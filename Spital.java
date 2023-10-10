@@ -13,7 +13,7 @@ public class Spital {
     public void setPacient(int nr){
         pacient = new Pacient[nr];
         for (int i = 0; i < nr; i++) {
-            pacient[i] = new Pacient(); // Initialize each element
+            pacient[i] = new Pacient(); // Initializam fiecare element
         }
     }
 
